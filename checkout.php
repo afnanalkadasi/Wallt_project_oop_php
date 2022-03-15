@@ -2,7 +2,7 @@
 
 <?php
 include 'checkoutClass.php';
-require_once "dbcontroller.php" ;
+include 'dbcontroller.php';
 $connect = new DBController();
 
 if(!isset($_SESSION['user_name'])&&$_SESSION["user_name"]==""){

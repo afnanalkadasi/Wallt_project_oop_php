@@ -2,7 +2,7 @@
 
  include 'WalletClass.php';
 
- require_once("dbcontroller.php");
+ include 'dbcontroller.php';
  $connect = new DBController();
  if(isset($_POST['submit']))
 {

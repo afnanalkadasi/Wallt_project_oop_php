@@ -1,7 +1,7 @@
 <?php
+include 'dbcontroller.php';
 
-
-class wallet
+class wallet extends DBController
 {
 
 
